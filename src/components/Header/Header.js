@@ -15,7 +15,7 @@ function Header() {
   const handleLogout = async () => {
     try {
       const response = await axios.get(
-        "https://resume-builder-backend-4.onrender.com/api/v1/user/logout",
+        "https://resume-builder-backend-delta.vercel.app/api/v1/user/logout",
         {
           withCredentials: true, //like token,cookies etc
         }

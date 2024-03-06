@@ -20,7 +20,7 @@ const Login = () => {
     try {
       setIsLoading(true);
       const { data } = await axios.post(
-        "https://resume-builder-backend-4.onrender.com/api/v1/user/login",
+        "https://resume-builder-backend-delta.vercel.app/api/v1/user/login",
         { email, password },
         {
           headers: {
