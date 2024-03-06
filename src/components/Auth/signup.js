@@ -24,7 +24,7 @@ const Signup = () => {
     try {
       setIsLoading(true); // Start showing loader
       const { data } = await axios.post(
-        "https://resume-builder-backend-ucvb.vercel.app/api/v1/user/signup",
+        "https://rich-ruby-hippopotamus-ring.cyclic.app/api/v1/user/signup",
         { name, phone, email, password },
         {
           headers: {

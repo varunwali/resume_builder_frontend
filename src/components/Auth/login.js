@@ -20,7 +20,7 @@ const Login = () => {
     try {
       setIsLoading(true);
       const { data } = await axios.post(
-        "https://resume-builder-backend-ucvb.vercel.app/api/v1/user/login",
+        "https://rich-ruby-hippopotamus-ring.cyclic.app/api/v1/user/login",
         { email, password },
         {
           headers: {
