@@ -15,7 +15,13 @@ function Header() {
   const handleLogout = async () => {
     try {
       const response = await axios.get(
-        "https://rich-ruby-hippopotamus-ring.cyclic.app/api/v1/user/logout"
+        "https://rich-ruby-hippopotamus-ring.cyclic.app/api/v1/user/logout",
+        {
+          headers: {
+            "Access-Control-Allow-Origin":
+              "https://resume-builder-frontend-amber.vercel.app",
+          },
+        }
       );
       toast.success(response.data.message); //its is used to provied notifications
       setIsAuthorized(false);

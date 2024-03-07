@@ -28,7 +28,9 @@ const Signup = () => {
         { name, phone, email, password },
         {
           headers: {
-            "Content-Type": "text/plain",
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin":
+              "https://resume-builder-frontend-amber.vercel.app",
           },
         }
       );
