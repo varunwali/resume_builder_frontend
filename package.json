@@ -1,7 +1,7 @@
 {
   "name": "resume_builder",
   "version": "0.1.0",
-  "proxy": "https://resume-builder-backend-obvm1ecln-varunwalis-projects.vercel.app",
+  "proxy": "https://rich-ruby-hippopotamus-ring.cyclic.app/",
   "homepage": "https://resume-builder-frontend-amber.vercel.app/",
   "private": true,
   "dependencies": {
