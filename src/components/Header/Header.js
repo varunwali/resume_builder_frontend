@@ -15,10 +15,7 @@ function Header() {
   const handleLogout = async () => {
     try {
       const response = await axios.get(
-        "https://rich-ruby-hippopotamus-ring.cyclic.app/api/v1/user/logout",
-        {
-          withCredentials: true, //like token,cookies etc
-        }
+        "https://rich-ruby-hippopotamus-ring.cyclic.app/api/v1/user/logout"
       );
       toast.success(response.data.message); //its is used to provied notifications
       setIsAuthorized(false);
