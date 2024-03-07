@@ -30,7 +30,7 @@ const Signup = () => {
           headers: {
             "Content-Type": "application/json",
           },
-          withCredentials: false,
+          withCredentials: true,
         }
       );
       toast.success(data.message);
