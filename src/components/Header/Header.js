@@ -17,7 +17,7 @@ function Header() {
       const response = await axios.get(
         "https://rich-ruby-hippopotamus-ring.cyclic.app/api/v1/user/logout",
         {
-          withCredentials: true, //like token,cookies etc
+          withCredentials: false, //like token,cookies etc
         }
       );
       toast.success(response.data.message); //its is used to provied notifications
